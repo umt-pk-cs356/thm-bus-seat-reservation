@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title><?php bloginfo('title'); ?></title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="screen" />
+    <?php wp_head();?>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header-wrapper">
+        <div id="header">
+            <div id="logo">
+                <h1><a href="#"><b>DAEWOO EXPRESS BUS SERVICE</a></h1>
+                <h3>For Booking UAN : 111-007-008, 03311-007-008</h3>
+            </div>
+        </div>
+    </div>
+    <!-- end #header -->
+    <div id="menu">
+        <ul>
+            <li class="current_page_item"><a href="localhost/wordpress">Home</a></li>
+            <li><a href="http://www.daewoo.com.pk/reservation01.asp?menu_set=1">Reservation</a></li>
+            <li><a href="http://www.daewoo.com.pk/schedules01.asp?menu_set=2">Schdules</a></li>
+            <li><a href="http://www.daewoo.com.pk/cargo02.asp?menu_set=3">Cargo</a></li>
+            <li><a href="http://www.daewoo.com.pk/terminals01.asp?menu_set=5">Terminal</a></li>
+            <li><a href="http://www.daewoo.com.pk/aboutus01.asp?menu_set=7">About Us</a></li>
+            
+        </ul>
+    </div>
+    <div id="menu">
+        <?php wp_nav_menu(); ?>
+    </div>
+    <!-- end #menu -->
+    <div id="page">
+        <div id="page-bgtop">
+            <div id="page-bgbtm">
+                <div id="content">
